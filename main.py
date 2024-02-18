@@ -1,3 +1,6 @@
+import os 
+
+os.system("pip install pytz")
 import fortnitepy
 
 bot = fortnitepy.Client(

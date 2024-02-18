@@ -1,6 +1,7 @@
 import os 
-
-os.system("pip install pytz")
+items = ["pytz" "setuptools" "aioconsole" "asyncio"]
+for item in items:
+  os.system(f"pip install {item}")
 import fortnitepy
 
 bot = fortnitepy.Client(

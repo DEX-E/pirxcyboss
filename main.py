@@ -7,7 +7,7 @@ bot = fortnitepy.Client(
 )
 
 @bot.command()
-async def cid(ctx,skin)
+async def cid(ctx,skin):
   await bot.party.me.set_outfit(cid)
   await ctx.send(skin)
 
